@@ -1,0 +1,21 @@
+{
+  "name": "testing-agents",
+  "version": "1.0.0",
+  "description": "Autonomous Gmail to Google Calendar agent powered by openai-agents.",
+  "type": "module",
+  "scripts": {
+    "agent": "ts-node src/agent.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "googleapis": "^137.1.0",
+    "node-cron": "^3.0.3",
+    "openai": "^4.57.0",
+    "openai-agents": "^0.1.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
